@@ -29,6 +29,7 @@ Partial Class Form1
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Button7 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -93,11 +94,21 @@ Partial Class Form1
         Me.ComboBox1.Size = New System.Drawing.Size(182, 33)
         Me.ComboBox1.TabIndex = 6
         '
+        'Button7
+        '
+        Me.Button7.Location = New System.Drawing.Point(114, 84)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(112, 34)
+        Me.Button7.TabIndex = 7
+        Me.Button7.Text = "Button7"
+        Me.Button7.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(834, 524)
+        Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
@@ -118,4 +129,5 @@ Partial Class Form1
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
     Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents Button7 As Button
 End Class
